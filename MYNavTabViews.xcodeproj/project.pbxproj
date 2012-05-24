@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235CD2BA156E1B95002F8941 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235CD2B9156E1B95002F8941 /* UIKit.framework */; };
+		235CD2BC156E1B95002F8941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235CD2BB156E1B95002F8941 /* Foundation.framework */; };
+		235CD2BE156E1B95002F8941 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235CD2BD156E1B95002F8941 /* CoreGraphics.framework */; };
+		235CD2C4156E1B95002F8941 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 235CD2C2156E1B95002F8941 /* InfoPlist.strings */; };
+		235CD2C6156E1B95002F8941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 235CD2C5156E1B95002F8941 /* main.m */; };
+		235CD2CA156E1B95002F8941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 235CD2C9156E1B95002F8941 /* AppDelegate.m */; };
+		235CD2EE156E1DDF002F8941 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235CD2EC156E1DDF002F8941 /* HomeViewController.m */; };
+		235CD2F2156E22F2002F8941 /* GameonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235CD2F1156E22F2002F8941 /* GameonViewController.m */; };
+		235CD2F5156E230D002F8941 /* MygameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235CD2F4156E230D002F8941 /* MygameViewController.m */; };
+		235CD2F8156E231E002F8941 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235CD2F7156E231E002F8941 /* AccountViewController.m */; };
+		235CD304156E2620002F8941 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235CD303156E2620002F8941 /* QuartzCore.framework */; };
+		235CD308156E28A2002F8941 /* MYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235CD307156E28A2002F8941 /* MYNavigationController.m */; };
+		235CD30B156E2A8C002F8941 /* MYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235CD30A156E2A8C002F8941 /* MYTabBarController.m */; };
+		235CD30D156E30E7002F8941 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 235CD30C156E30E7002F8941 /* test.png */; };
+		235CD31D156E4532002F8941 /* magnifying-glass-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 235CD319156E4531002F8941 /* magnifying-glass-selected.png */; };
+		235CD31E156E4532002F8941 /* magnifying-glass-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 235CD31A156E4531002F8941 /* magnifying-glass-selected@2x.png */; };
+		235CD31F156E4532002F8941 /* magnifying-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 235CD31B156E4532002F8941 /* magnifying-glass.png */; };
+		235CD320156E4532002F8941 /* magnifying-glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 235CD31C156E4532002F8941 /* magnifying-glass@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		235CD2B5156E1B95002F8941 /* MYNavTabViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYNavTabViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		235CD2B9156E1B95002F8941 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		235CD2BB156E1B95002F8941 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		235CD2BD156E1B95002F8941 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		235CD2C1156E1B95002F8941 /* MYNavTabViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MYNavTabViews-Info.plist"; sourceTree = "<group>"; };
+		235CD2C3156E1B95002F8941 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		235CD2C5156E1B95002F8941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		235CD2C7156E1B95002F8941 /* MYNavTabViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MYNavTabViews-Prefix.pch"; sourceTree = "<group>"; };
+		235CD2C8156E1B95002F8941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		235CD2C9156E1B95002F8941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		235CD2EB156E1DDF002F8941 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		235CD2EC156E1DDF002F8941 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		235CD2F0156E22F2002F8941 /* GameonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameonViewController.h; sourceTree = "<group>"; };
+		235CD2F1156E22F2002F8941 /* GameonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameonViewController.m; sourceTree = "<group>"; };
+		235CD2F3156E230D002F8941 /* MygameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MygameViewController.h; sourceTree = "<group>"; };
+		235CD2F4156E230D002F8941 /* MygameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MygameViewController.m; sourceTree = "<group>"; };
+		235CD2F6156E231E002F8941 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		235CD2F7156E231E002F8941 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		235CD303156E2620002F8941 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		235CD306156E28A2002F8941 /* MYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationController.h; sourceTree = "<group>"; };
+		235CD307156E28A2002F8941 /* MYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationController.m; sourceTree = "<group>"; };
+		235CD309156E2A8C002F8941 /* MYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTabBarController.h; sourceTree = "<group>"; };
+		235CD30A156E2A8C002F8941 /* MYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTabBarController.m; sourceTree = "<group>"; };
+		235CD30C156E30E7002F8941 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = ../test.png; sourceTree = "<group>"; };
+		235CD319156E4531002F8941 /* magnifying-glass-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass-selected.png"; sourceTree = "<group>"; };
+		235CD31A156E4531002F8941 /* magnifying-glass-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass-selected@2x.png"; sourceTree = "<group>"; };
+		235CD31B156E4532002F8941 /* magnifying-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass.png"; sourceTree = "<group>"; };
+		235CD31C156E4532002F8941 /* magnifying-glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		235CD2B2156E1B95002F8941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235CD304156E2620002F8941 /* QuartzCore.framework in Frameworks */,
+				235CD2BA156E1B95002F8941 /* UIKit.framework in Frameworks */,
+				235CD2BC156E1B95002F8941 /* Foundation.framework in Frameworks */,
+				235CD2BE156E1B95002F8941 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		235CD2AA156E1B95002F8941 = {
+			isa = PBXGroup;
+			children = (
+				235CD305156E2889002F8941 /* CustomClasses */,
+				235CD2BF156E1B95002F8941 /* MYNavTabViews */,
+				235CD2B8156E1B95002F8941 /* Frameworks */,
+				235CD2B6156E1B95002F8941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		235CD2B6156E1B95002F8941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				235CD2B5156E1B95002F8941 /* MYNavTabViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		235CD2B8156E1B95002F8941 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				235CD303156E2620002F8941 /* QuartzCore.framework */,
+				235CD2B9156E1B95002F8941 /* UIKit.framework */,
+				235CD2BB156E1B95002F8941 /* Foundation.framework */,
+				235CD2BD156E1B95002F8941 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		235CD2BF156E1B95002F8941 /* MYNavTabViews */ = {
+			isa = PBXGroup;
+			children = (
+				235CD2C8156E1B95002F8941 /* AppDelegate.h */,
+				235CD2C9156E1B95002F8941 /* AppDelegate.m */,
+				235CD2C0156E1B95002F8941 /* Supporting Files */,
+				235CD2EB156E1DDF002F8941 /* HomeViewController.h */,
+				235CD2EC156E1DDF002F8941 /* HomeViewController.m */,
+				235CD2F0156E22F2002F8941 /* GameonViewController.h */,
+				235CD2F1156E22F2002F8941 /* GameonViewController.m */,
+				235CD2F3156E230D002F8941 /* MygameViewController.h */,
+				235CD2F4156E230D002F8941 /* MygameViewController.m */,
+				235CD2F6156E231E002F8941 /* AccountViewController.h */,
+				235CD2F7156E231E002F8941 /* AccountViewController.m */,
+			);
+			path = MYNavTabViews;
+			sourceTree = "<group>";
+		};
+		235CD2C0156E1B95002F8941 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				235CD319156E4531002F8941 /* magnifying-glass-selected.png */,
+				235CD31A156E4531002F8941 /* magnifying-glass-selected@2x.png */,
+				235CD31B156E4532002F8941 /* magnifying-glass.png */,
+				235CD31C156E4532002F8941 /* magnifying-glass@2x.png */,
+				235CD30C156E30E7002F8941 /* test.png */,
+				235CD2C1156E1B95002F8941 /* MYNavTabViews-Info.plist */,
+				235CD2C2156E1B95002F8941 /* InfoPlist.strings */,
+				235CD2C5156E1B95002F8941 /* main.m */,
+				235CD2C7156E1B95002F8941 /* MYNavTabViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		235CD305156E2889002F8941 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				235CD306156E28A2002F8941 /* MYNavigationController.h */,
+				235CD307156E28A2002F8941 /* MYNavigationController.m */,
+				235CD309156E2A8C002F8941 /* MYTabBarController.h */,
+				235CD30A156E2A8C002F8941 /* MYTabBarController.m */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		235CD2B4156E1B95002F8941 /* MYNavTabViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235CD2CD156E1B95002F8941 /* Build configuration list for PBXNativeTarget "MYNavTabViews" */;
+			buildPhases = (
+				235CD2B1156E1B95002F8941 /* Sources */,
+				235CD2B2156E1B95002F8941 /* Frameworks */,
+				235CD2B3156E1B95002F8941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYNavTabViews;
+			productName = MYNavTabViews;
+			productReference = 235CD2B5156E1B95002F8941 /* MYNavTabViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		235CD2AC156E1B95002F8941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 235CD2AF156E1B95002F8941 /* Build configuration list for PBXProject "MYNavTabViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 235CD2AA156E1B95002F8941;
+			productRefGroup = 235CD2B6156E1B95002F8941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				235CD2B4156E1B95002F8941 /* MYNavTabViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		235CD2B3156E1B95002F8941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235CD2C4156E1B95002F8941 /* InfoPlist.strings in Resources */,
+				235CD30D156E30E7002F8941 /* test.png in Resources */,
+				235CD31D156E4532002F8941 /* magnifying-glass-selected.png in Resources */,
+				235CD31E156E4532002F8941 /* magnifying-glass-selected@2x.png in Resources */,
+				235CD31F156E4532002F8941 /* magnifying-glass.png in Resources */,
+				235CD320156E4532002F8941 /* magnifying-glass@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		235CD2B1156E1B95002F8941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235CD2C6156E1B95002F8941 /* main.m in Sources */,
+				235CD2CA156E1B95002F8941 /* AppDelegate.m in Sources */,
+				235CD2EE156E1DDF002F8941 /* HomeViewController.m in Sources */,
+				235CD2F2156E22F2002F8941 /* GameonViewController.m in Sources */,
+				235CD2F5156E230D002F8941 /* MygameViewController.m in Sources */,
+				235CD2F8156E231E002F8941 /* AccountViewController.m in Sources */,
+				235CD308156E28A2002F8941 /* MYNavigationController.m in Sources */,
+				235CD30B156E2A8C002F8941 /* MYTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		235CD2C2156E1B95002F8941 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235CD2C3156E1B95002F8941 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		235CD2CB156E1B95002F8941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		235CD2CC156E1B95002F8941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		235CD2CE156E1B95002F8941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYNavTabViews/MYNavTabViews-Prefix.pch";
+				INFOPLIST_FILE = "MYNavTabViews/MYNavTabViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		235CD2CF156E1B95002F8941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MYNavTabViews/MYNavTabViews-Prefix.pch";
+				INFOPLIST_FILE = "MYNavTabViews/MYNavTabViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		235CD2AF156E1B95002F8941 /* Build configuration list for PBXProject "MYNavTabViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235CD2CB156E1B95002F8941 /* Debug */,
+				235CD2CC156E1B95002F8941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235CD2CD156E1B95002F8941 /* Build configuration list for PBXNativeTarget "MYNavTabViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235CD2CE156E1B95002F8941 /* Debug */,
+				235CD2CF156E1B95002F8941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 235CD2AC156E1B95002F8941 /* Project object */;
+}
